@@ -1,6 +1,8 @@
 #INTEGRANTES:
 #GERMÁN LEONARDO MORENO CAINABA - 202116701
 #DANIEL FELIPE MOLANO RODRIGUEZ - 202012695
+
+
 #ISIS1225 - Estructura de un proyecto
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
