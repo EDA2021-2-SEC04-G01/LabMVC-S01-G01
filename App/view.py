@@ -85,7 +85,11 @@ while True:
     elif int(inputs[0])== 3:
         print("Cargando información de booktags....")
         booktags = loadBooktags()
-        print("Total de booktags cargados: "+str(lt.size(booktags)))
+        if booktags != None:
+            print("Total de booktags cargados: "+str(lt.size(booktags)))
+        else:
+            print("\nNo se pudieron cargar los booktags, por favor revise el nombre del archivo o el código de 'controller'.\n")
+            sys.exit(0)
     # TODO: Modificaciones para el laboratorio 1.
 
     else:
